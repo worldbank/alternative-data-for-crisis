@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: docs
 on:
   push:
     branches:
@@ -16,14 +16,13 @@ jobs:
           cache: "pip"
       - name: Install Dependencies
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           if [ -f pyproject.toml ]; then pip install ".[docs]"; fi
-      - name: Build Juputer Book Documentation
+      - name: Build Sphinx Documentation
         run: |
-          jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
+          sphinx-build docs _build/html -b html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        if: github.ref == 'refs/heads/main' && job.status == 'success'
+        if: job.status == 'success'
         with:
           path: "_build/html"
 

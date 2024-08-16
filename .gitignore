@@ -93,3 +93,9 @@ _build/
 
 # setuptools-scm/
 src/*/_version.py
+
+# data folder
+data/
+
+# others folder
+cache/

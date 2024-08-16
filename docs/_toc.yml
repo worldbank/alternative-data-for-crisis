@@ -1,5 +1,7 @@
 format: jb-book
 root: README
+options:  
+  numbered: True
 
 parts:
   - caption: Establishing the Analysis Zone
@@ -7,14 +9,10 @@ parts:
     chapters:
       - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
   - caption: Mapping and Monitoring the Extent of the Crisis
-    numbered: True
+    numbered: True 
     chapters:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
-  - caption: Mapping Exposure
-    numbered: True
-    chapters:
-      - file:
   - caption: Estimating Physical Impact
     numbered: True
     chapters:
@@ -30,7 +28,4 @@ parts:
   - caption: Pulling it all Together
     numbered: True
     chapters:
-  - caption: Final Project
-    numbered: True
-    chapters:
-
+      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators

@@ -1,36 +1,24 @@
 format: jb-book
 root: README
+options:  
+  numbered: True
 
 parts:
   - caption: Establishing the Analysis Zone
-    numbered: True
     chapters:
       - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
   - caption: Mapping and Monitoring the Extent of the Crisis
-    numbered: True
     chapters:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
-  - caption: Mapping Exposure
-    numbered: True
-    chapters:
-      - file:
   - caption: Estimating Physical Impact
-    numbered: True
     chapters:
       - file: notebooks/physical-impact/internet-conectivity.ipynb
       - file: notebooks/physical-impact/NTL.ipynb
   - caption: Estimating Disruption to Business and Trade
-    numbered: True
     chapters:
       - file: notebooks/disruptions-business-trade/NTL-disruptions-to-business-and-trade.ipynb
       - file: notebooks/disruptions-business-trade/business-activity-trends.ipynb
       - file: notebooks/disruptions-business-trade/maritime-port-activity.ipynb
       - file: notebooks/disruptions-business-trade/visits.ipynb
-  - caption: Pulling it all Together
-    numbered: True
-    chapters:
-  - caption: Final Project
-    numbered: True
-    chapters:
 

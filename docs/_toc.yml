@@ -2,23 +2,35 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
+  - caption: Establishing the Analysis Zone
     numbered: True
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-      - file: notebooks/bibliography.ipynb
-  - caption: Gallery
+      - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
+  - caption: Mapping and Monitoring the Extent of the Crisis
+    numbered: True
     chapters:
-      - file: docs/gallery
-  - caption: Additional Resources
+      - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
+      - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
+  - caption: Mapping Exposure
+    numbered: True
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file:
+  - caption: Estimating Physical Impact
+    numbered: True
+    chapters:
+      - file: notebooks/physical-impact/internet-conectivity.ipynb
+      - file: notebooks/physical-impact/NTL.ipynb
+  - caption: Estimating Disruption to Business and Trade
+    numbered: True
+    chapters:
+      - file: notebooks/disruptions-business-trade/NTL-disruptions-to-business-and-trade.ipynb
+      - file: notebooks/disruptions-business-trade/business-activity-trends.ipynb
+      - file: notebooks/disruptions-business-trade/maritime-port-activity.ipynb
+      - file: notebooks/disruptions-business-trade/visits.ipynb
+  - caption: Pulling it all Together
+    numbered: True
+    chapters:
+  - caption: Final Project
+    numbered: True
+    chapters:
+

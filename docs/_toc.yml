@@ -4,6 +4,11 @@ options:
   numbered: True
 
 parts:
+  - caption: Review Material
+    numbered: True
+    chapters:
+      - file: notebooks/review-notebooks/review-pandas.ipynb
+      - file: notebooks/review-notebooks/review-geopandas.ipynb
   - caption: Establishing the Analysis Zone
     numbered: True
     chapters:

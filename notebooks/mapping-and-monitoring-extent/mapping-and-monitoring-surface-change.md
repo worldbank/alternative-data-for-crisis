@@ -30,7 +30,7 @@ This similarity measurement, namely interferometric coherence ranging from $[0,1
 
 We have employed all the Copernicus [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1/overview) data acquired over the Gaza strip, which consists in 3 satellite orbits, namely ascending orbit 87 and 160 and descending orbit 94. Then, all the similarity maps were calculated with respect to the first image available for each of the orbits acquired in September 2022. This produces time series measurements that will allow to use a statistical approach to determine changes using anomaly detection method. Each orbit has 12 days repeat pass, so new updated products can be added regularly every 12 days.
 
-```{figure} ../../docs/images/damage-assessment-calendar.png
+```{figure} ../images/damage-assessment-calendar.png
 ---
 ---
 Calendar with Copernicus Sentinel-1 acquisition dates after the war started on past 7th October 2023 until 9th January 2023.
@@ -42,7 +42,7 @@ For the time series change detection, pre-war data from September 2022 until end
 
 The 3-sigmas rule considers as an anomaly those values that are lower than the average minus 3 times the standard deviation. In other words, anomalies are those values that are lower than 99.6% of the values in the pre-war context. Similarly, the 2.5-sigma rules consider anomalies those values that are lower than the average minus 2.5 standard deviations. The 3-sigma rule is more conservative while the 2.5 sigma rule can result in a higher number of false alarms. See example of this empirical rule below.
 
-```{figure} ../../docs/images/damage-assessment-empirical-rule.jpg
+```{figure} ../images/damage-assessment-empirical-rule.jpg
 ---
 scale: 50%
 ---

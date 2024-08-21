@@ -42,4 +42,6 @@ parts:
   - caption: Pulling it all Together
     numbered: True
     chapters:
-      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators
+      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators.md
+        sections:
+          - file: notebooks/pulling-it-together/indicators/indicators-housing-and-community.ipynb

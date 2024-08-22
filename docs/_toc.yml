@@ -39,6 +39,7 @@ parts:
       - file: notebooks/disruptions-business-trade/business-activity-trends.ipynb
       - file: notebooks/disruptions-business-trade/maritime-port-activity.ipynb
       - file: notebooks/disruptions-business-trade/visits.ipynb
+      - file: notebooks/disruptions-business-trade/cross-border-activity.md
   - caption: Pulling it all Together
     numbered: True
     chapters:

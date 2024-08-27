@@ -4,6 +4,11 @@ options:
   numbered: True
 
 parts:
+  - caption: Review Material
+    numbered: True
+    chapters:
+      - file: notebooks/review-notebooks/review-pandas.ipynb
+      - file: notebooks/review-notebooks/review-geopandas.ipynb
   - caption: Establishing the Analysis Zone
     numbered: True
     chapters:
@@ -13,6 +18,15 @@ parts:
     chapters:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
+      - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-surface-change.md
+        sections:
+          - file: notebooks/mapping-and-monitoring-extent/damage-assessment.ipynb
+  - caption: Mapping Exposure
+    numbered: True
+    chapters:
+      - file: notebooks/mapping-exposure/mapping-exposure-infrastructure.ipynb
+      - file: notebooks/mapping-exposure/mapping-exposure-population.ipynb
+
   - caption: Estimating Physical Impact
     numbered: True
     chapters:
@@ -25,7 +39,10 @@ parts:
       - file: notebooks/disruptions-business-trade/business-activity-trends.ipynb
       - file: notebooks/disruptions-business-trade/maritime-port-activity.ipynb
       - file: notebooks/disruptions-business-trade/visits.ipynb
+      - file: notebooks/disruptions-business-trade/cross-border-activity.md
   - caption: Pulling it all Together
     numbered: True
     chapters:
-      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators
+      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators.md
+        sections:
+          - file: notebooks/pulling-it-together/indicators/indicators-housing-and-community.ipynb

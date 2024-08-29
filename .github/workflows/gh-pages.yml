@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - develop #for testing purposes
 
 jobs:
   build-book:

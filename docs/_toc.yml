@@ -1,6 +1,6 @@
 format: jb-book
 root: README
-options:  
+options:
   numbered: True
 
 parts:
@@ -14,7 +14,7 @@ parts:
     chapters:
       - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
   - caption: Mapping and Monitoring the Extent of the Crisis
-    numbered: True 
+    numbered: True
     chapters:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb

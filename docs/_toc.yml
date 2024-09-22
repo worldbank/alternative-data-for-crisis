@@ -32,6 +32,7 @@ parts:
     chapters:
       - file: notebooks/physical-impact/internet-conectivity.ipynb
       - file: notebooks/physical-impact/NTL.ipynb
+      - file: notebooks/physical-impact/solar-panel-detection.ipynb
   - caption: Estimating Disruption to Business and Trade
     numbered: True
     chapters:

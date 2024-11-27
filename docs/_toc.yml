@@ -19,8 +19,8 @@ parts:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-surface-change.md
-        sections:
-          - file: notebooks/mapping-and-monitoring-extent/damage-assessment.ipynb
+#        sections:
+#          - file: notebooks/mapping-and-monitoring-extent/damage-assessment.ipynb
   - caption: Mapping Exposure
     numbered: True
     chapters:
@@ -30,6 +30,7 @@ parts:
   - caption: Estimating Physical Impact
     numbered: True
     chapters:
+      - file: notebooks/physical-impact/infrastructure.ipynb
       - file: notebooks/physical-impact/internet-conectivity.ipynb
       - file: notebooks/physical-impact/NTL.ipynb
       - file: notebooks/physical-impact/solar-panel-detection.ipynb

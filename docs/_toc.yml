@@ -25,7 +25,12 @@ parts:
   - caption: Mapping Exposure
     numbered: True
     chapters:
-      - file: notebooks/mapping-exposure/mapping-exposure-infrastructure.ipynb
+      - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-main.ipynb
+        sections:
+          - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-osm.ipynb
+          - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-mbf.ipynb
+          - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-google.ipynb
+          - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-overture.ipynb
       - file: notebooks/mapping-exposure/mapping-exposure-population.ipynb
 
   - caption: Estimating Physical Impact

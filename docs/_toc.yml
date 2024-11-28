@@ -16,6 +16,7 @@ parts:
   - caption: Mapping and Monitoring the Extent of the Crisis
     numbered: True
     chapters:
+      - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-extent-intro.md
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-drought.ipynb
@@ -25,6 +26,7 @@ parts:
   - caption: Mapping Exposure
     numbered: True
     chapters:
+      - file: notebooks/mapping-exposure/mapping-exposure-intro.md
       - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-main.ipynb
         sections:
           - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-osm.ipynb
@@ -55,3 +57,5 @@ parts:
         sections:
           - file: notebooks/pulling-it-together/indicators/indicators-housing-and-community.ipynb
           - file: notebooks/pulling-it-together/indicators/industry-and-commerce.ipynb
+
+

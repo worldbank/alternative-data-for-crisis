@@ -38,7 +38,7 @@ parts:
   - caption: Estimating Physical Impact
     numbered: True
     chapters:
-      - file: notebooks/physical-impact/infrastructure.ipynb
+      - file: notebooks/physical-impact/damage-assessment.ipynb
       - file: notebooks/physical-impact/internet-conectivity.ipynb
       - file: notebooks/physical-impact/NTL.ipynb
       - file: notebooks/physical-impact/solar-panel-detection.ipynb

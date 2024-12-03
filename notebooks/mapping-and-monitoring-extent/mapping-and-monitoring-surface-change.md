@@ -30,7 +30,7 @@ Calendar with Copernicus Sentinel-1 acquisition dates after the war started on p
 
 For the time series change detection, pre-war data from September 2022 until end September 2023 was computed to obtain statistics in non-war situation. These statistics are also used to classify the newer data acquired during the war period, October 2023 until the present time, with pixels for which had been detected a change (potentially attributable to war damage) using anomaly detection method with different thresholds (i.e. 3 sigma rule and 2.5 sigma rule).
 
-The 3-sigmas rule considers as an anomaly those values that are lower than the average minus 3 times the standard deviation. In other words, anomalies are those values that are lower than 99.6% of the values in the pre-war context. Similarly, the 2.5-sigma rules consider anomalies those values that are lower than the average minus 2.5 standard deviations. The 3-sigma rule is more conservative while the 2.5 sigma rule can result in a higher number of false alarms. See example of this empirical rule below.
+The 3-sigmas rule considers as an anomaly those values that are lower than the average minus 3 times the standard deviation. In other words, anomalies are those values that are lower than 99.6% of the values in the pre-war context. Similarly, the 2.5-sigma rules consider anomalies those values that are lower than the average minus 2.5 standard deviations. The 3-sigma rule is more conservative while the 2.5-sigma rule can result in a higher number of false alarms. See example of this empirical rule below.
 
 ```{figure} ../images/damage-assessment-empirical-rule.jpg
 ---
@@ -47,7 +47,7 @@ Resulting anomaly detection raster layer for the 2023-10-17
 ```
 
 ### Infrastructural damage assessment using the change maps and the vector layers
-This step will be explained when assessing the [Physical Impact over the Infrastructure](https://reimagined-disco-g6q6ny1.pages.github.io/notebooks/physical-impact/infrastructure.html)
+This step will be explained when assessing the [Physical Impact over the Infrastructure](https://reimagined-disco-g6q6ny1.pages.github.io/notebooks/physical-impact/infrastructure.html).
 
 ## Limitations
 
@@ -56,7 +56,7 @@ Using OpenStreetMap (OSM) and Interferometric Synthetic Aperture Radar (InSAR) f
 
 - **Incomplete Data:**
     - **Coverage Discrepancies:** OSM data might lack comprehensive coverage, especially in certain regions or areas with limited community input or verification. This can lead to incomplete or outdated information about buildings. For instance, {cite:t}`BITTNER201734` outlined the Israeli domination of OSM entries, whereas there are far fewer mappers in Palestine.
-    - **Quality Variability:** Data quality can vary significantly as it relies on volunteer contributions. Accuracy in mapping may vary, leading to inconsistencies or errors in identifying buildings
+    - **Quality Variability:** Data quality can vary significantly as it relies on volunteer contributions. Accuracy in mapping may vary, leading to inconsistencies or errors in identifying buildings.
 
 - **Temporal Limitations:**
     - **Data Timeliness:** OSM data might not be up to date due to infrequent updates or changes in the landscape that haven't been reflected yet.

@@ -1,0 +1,8 @@
+pandas
+geopandas
+matplotlib
+gdal
+nco
+cdo
+netcdf4
+xarray

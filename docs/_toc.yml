@@ -20,6 +20,7 @@ parts:
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-extent-intro.md
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-conflict.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-earthquake-intensity.ipynb
+      - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-floods.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-drought.ipynb
       - file: notebooks/mapping-and-monitoring-extent/mapping-and-monitoring-surface-change.md
 #        sections:

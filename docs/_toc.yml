@@ -43,8 +43,8 @@ parts:
       - file: notebooks/physical-impact/damage-assessment.ipynb
       - file: notebooks/physical-impact/internet-connectivity.ipynb
         sections:
-          file: notebooks/physical-impact/internet-connectivity-meta.ipynb
-          file: notebooks/physical-impact/internet-connectivity-ookla.ipynb
+          - file: notebooks/physical-impact/internet-connectivity-meta.ipynb
+          - file: notebooks/physical-impact/internet-connectivity-ookla.ipynb
       - file: notebooks/physical-impact/NTL.ipynb
       - file: notebooks/physical-impact/solar-panel-detection.ipynb
   - caption: Estimating Disruption to Business and Trade

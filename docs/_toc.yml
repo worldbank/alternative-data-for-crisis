@@ -59,6 +59,7 @@ parts:
     numbered: True
     chapters:
       - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators.md
+      - file: notebooks/pulling-it-together/indicators/best-practices.md
         sections:
           - file: notebooks/pulling-it-together/indicators/indicators-housing-and-community.ipynb
           - file: notebooks/pulling-it-together/indicators/industry-and-commerce.ipynb

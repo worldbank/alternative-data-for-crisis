@@ -27,5 +27,5 @@ and social media data for insights into internet connectivity. 
 Participants will develop the competencies to navigate and analyze diverse data sets, equipping them with practical skills
 for real-world economic impact analysis in the context of crises.  
 
-## Instructores
+## Instructors
 Placeholder for information about the instructors

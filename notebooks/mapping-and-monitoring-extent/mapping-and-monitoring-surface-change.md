@@ -28,9 +28,9 @@ Calendar with Copernicus Sentinel-1 acquisition dates after the war started on p
 
 ### Change detection based on time series statistics
 
-For the time series change detection, pre-war data from September 2022 until end September 2023 was computed to obtain statistics in non-war situation. These statistics are also used to classify the newer data acquired during the war period, October 2023 until the present time, with pixels for which had been detected a change (potentially attributable to war damage) using anomaly detection method with different thresholds (i.e. 3 sigma rule and 2.5 sigma rule).
+For the time series change detection, pre-war data from September 2022 until end September 2023 was computed to obtain statistics in non-war situation. These statistics are also used to classify the newer data acquired during the war period, October 2023 until the present time, with pixels for which had been detected a change (potentially attributable to war damage) using anomaly detection method with different thresholds (i.e. 3-sigma rule and 2.5-sigma rule).
 
-The 3-sigmas rule considers as an anomaly those values that are lower than the average minus 3 times the standard deviation. In other words, anomalies are those values that are lower than 99.6% of the values in the pre-war context. Similarly, the 2.5-sigma rules consider anomalies those values that are lower than the average minus 2.5 standard deviations. The 3-sigma rule is more conservative while the 2.5-sigma rule can result in a higher number of false alarms. See example of this empirical rule below.
+The 3-sigma rule considers as an anomaly those values that are lower than the average minus 3 times the standard deviation. In other words, anomalies are those values that are lower than 99.6% of the values in the pre-war context. Similarly, the 2.5-sigma rules consider anomalies those values that are lower than the average minus 2.5 standard deviations. The 3-sigma rule is more conservative while the 2.5-sigma rule can result in a higher number of false alarms. See example of this empirical rule below.
 
 ```{figure} ../images/damage-assessment-empirical-rule.jpg
 ---

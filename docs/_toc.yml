@@ -53,6 +53,10 @@ parts:
       - file: notebooks/disruptions-business-trade/NTL-disruptions-to-business-and-trade.ipynb
       - file: notebooks/disruptions-business-trade/business-activity-trends.ipynb
       - file: notebooks/disruptions-business-trade/maritime-port-activity.ipynb
+        sections:
+          - file: notebooks/disruptions-business-trade/chokepoints-monitor.ipynb
+          - file: notebooks/disruptions-business-trade/port-calls-trends-monitor.ipynb
+          - file: notebooks/disruptions-business-trade/port-calls-practice.ipynb
       - file: notebooks/disruptions-business-trade/visits.ipynb
       - file: notebooks/disruptions-business-trade/cross-border-activity.md
   - caption: Pulling it all Together

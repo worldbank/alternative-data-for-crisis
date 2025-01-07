@@ -1,3 +1,4 @@
+(mapping-and-monitoring-surface-change)=
 # Mapping and Monitoring Surface Change
 This is an illustrative class to showcase the work done by the World Bank Data Lab team to estimate the damage undertaken to buildings and points of interest due to Gaza-Israel conflict. This damage assessment was created using satellite Interferometric Synthetic Aperture Radar (InSAR) imagery. In this first class, we will learn how to create a raster to detect surface changes. In a following class, we will overlay this raster with infrastructure and points of interest to assess the damage. 
 

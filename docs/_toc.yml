@@ -68,5 +68,9 @@ parts:
         sections:
           - file: notebooks/pulling-it-together/indicators/indicators-housing-and-community.ipynb
           - file: notebooks/pulling-it-together/indicators/industry-and-commerce.ipynb
+  - caption: Final Project
+    numbered: True
+    chapters:
+      - file: notebooks/final-project/final-project.md
 
 

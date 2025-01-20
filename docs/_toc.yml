@@ -36,6 +36,7 @@ parts:
           - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-google.ipynb
           - file: notebooks/mapping-exposure/mapping-exposure-infrastructure-overture.ipynb
       - file: notebooks/mapping-exposure/mapping-exposure-population.ipynb
+      - file: notebooks/mapping-exposure/mapping-exposure-agricultural.ipynb
 
   - caption: Estimating Physical Impact
     numbered: True

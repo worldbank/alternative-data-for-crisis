@@ -11,20 +11,20 @@ GitHub is a web-based platform used for version control using [Git](https://git-
 GitHub is a web-based platform used for version control using Git. It allows multiple people to collaborate on projects, track changes, and manage code. This guide will help you get started with GitHub, covering the basics of creating repositories, committing changes, and collaborating with others.
 
 
-# GitHub Quickstart Guide
+## GitHub Quickstart Guide
 
-## Introduction
+### Introduction
 This guide will help you get started with GitHub, covering the basics of setting up a GitHub Account and cloning the course repository.
 
-## Prerequisites
+#### Prerequisites
 
 Before you begin, ensure you have the following:
 - A GitHub account. You can create one at [GitHub](https://github.com).
 - Git installed on your local machine. You can download it from [Git](https://git-scm.com).
 
-## Setting Up Git
+### Setting Up Git
 
-### Configuring Git
+#### Configuring Git
 
 After installing Git, you need to configure it with your GitHub account. Open your terminal or command prompt and run the following commands:
 
@@ -33,7 +33,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
 
-## Cloning a Repository
+###s Cloning a Repository
 Our course is stored on a GitHub repository on `remote`. In order to have a copy of it on your `local` machine, you need to clone it from the `remote` to `local`
 
 1. Open the terminal/command line and navigate to the path where you want to store the course material

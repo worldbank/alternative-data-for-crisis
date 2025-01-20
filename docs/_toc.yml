@@ -1,17 +1,16 @@
 format: jb-book
 root: README
-options:
-  numbered: True
 
 parts:
   - caption: Review Material
     numbered: True
     chapters:
       - file: notebooks/review-notebooks/getting-started-with-github.md
-      - file: notebooks/review-notebooks/review-pandas.ipynb
-      - file: notebooks/review-notebooks/review-geopandas.ipynb
+#      - file: notebooks/review-notebooks/review-pandas.ipynb
+#      - file: notebooks/review-notebooks/review-geopandas.ipynb
   - caption: Establishing the Analysis Zone
     numbered: True
+    toc: false
     chapters:
       - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
   - caption: Mapping and Monitoring the Extent of the Crisis

@@ -1,6 +1,21 @@
 (mapping-and-monitoring-surface-change)=
 # Mapping and Monitoring Surface Change
+
+## Summary
 This is an illustrative class to showcase the work done by the World Bank Data Lab team to estimate the damage undertaken to buildings and points of interest due to Gaza-Israel conflict. This damage assessment was created using satellite Interferometric Synthetic Aperture Radar (InSAR) imagery. In this first class, we will learn how to create a raster to detect surface changes. In a following class, we will overlay this raster with infrastructure and points of interest to assess the damage. 
+
+
+### Learning Objectives
+#### Overall goals 
+The primary objective of this notebook is to show students how open-source datasets can be employed to create a georeferenced layer indicating areas that experienced a surface change. 
+#### Specific objectives  
+At the end of this notebook the student should:
+
+1. **Understand Sentinel-1 data**:
+
+2. **Understand the methodology for creating a layer of damaged areas:**
+   - Learn the theoretical frame behind the image similarity method.
+   - Understand the methodology limitations
 
 ## Data
 The data used for this analysis is [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1/overview). This Satellite imagery forms the core of this analysis. These data is obtained once in two weeks to detect changes to building structures.

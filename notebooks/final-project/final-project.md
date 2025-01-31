@@ -1,6 +1,6 @@
 # Final Project
-To wrap up the course, you will be presented with four recent crisis events from around the world. You will need to 
-create an analysis of immediate impact based on what you have learned during the course for **two** crisis events of your choice.
+To wrap up the course, you will be presented with two recent crisis events from around the world. You will need to 
+create an analysis of immediate impact based on what you have learned during the course.
 
 ```{note} 
 If you are interested in working on a different crisis event not listed here, discuss it with the instructor
@@ -21,10 +21,17 @@ NTL should be calculated as the average radiance during weekdays four weeks befo
 in the week (weekdays) after the earthquake. The datapoints are the administrative level 3 boundaries.
 
 ### Flood in Bangladesh
+On August 21, 2024, heavy rainfall, coupled with a surge of water released from a dam in India's Tripura, resulted in severe flooding that affected 73 upazilas (sub-districts) and 528 unions/municipalities across 11 districts in northeastern and southeastern Bangladesh. [Source](August_2024_Bangladesh_floods). 
 
-### Crisis Number 3
+At the Data Lab, we were able to collect the flood data from the 6th of november on. 
 
-### Crisis Number 4
+For this crisis event, the client requested you the following deliverables:
+- An interactive map showing flooded areas at the pixel level
+- A map showing approximately flooded area at administrative level 3 boundary
+- Using NTL, calculate the radiance at administrative level 3 to try to detect changes after the flood.
+- Calculate how many people got affected by the flood. Note: Ideally, for this step you would resample the population to the flood pixels.
+- Create a map at administrative level 3 showing number of affected people by the flood. 
+- Calculate how many hospitals and schools are in areas that are still flooded. Hint: You can vectorize the raster layer and intersect it with the pois layer.
 
 
 ## Guidelines on how to work on this assignment

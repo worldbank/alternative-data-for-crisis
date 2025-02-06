@@ -33,4 +33,38 @@ for real-world economic impact analysis in the context of crises. 
 ```
 
 ## Instructors
-Placeholder for information about the instructors
+
+<style>
+.instructor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.instructor-card {
+    width: 200px;
+    text-align: center;
+}
+.instructor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+</style>
+
+<div class="instructor-container">
+    <div class="instructor-card">
+        <img src="path/to/image1.jpg" alt="Instructor 1">
+        <h3>Holly Krambeck</h3>
+        <p>Program Manager with the World Banks' Development Data Group</p>
+    </div>
+    <div class="instructor-card">
+        <img src="path/to/image2.jpg" alt="Instructor 2">
+        <h3>Dunstan Matekenya</h3>
+        <p>Data Scientist with the World Bank's Data Lab</p>
+    </div>
+    <div class="instructor-card">
+        <img src="path/to/image3.jpg" alt="Instructor 3">
+        <h3>Maria Sol Tadeo</h3>
+        <p>Data Scientist at the World Bank Group</p>
+    </div>
+</div>

@@ -1,19 +1,20 @@
 (mapping-and-monitoring-surface-change)=
-# Mapping and Monitoring Surface Change
+# Mapping and Monitoring Surface Change (Illustrative)
 
 ## Summary
-This is an illustrative class to showcase the work done by the World Bank Data Lab team to estimate the damage undertaken to buildings and points of interest due to Gaza-Israel conflict. This damage assessment was created using satellite Interferometric Synthetic Aperture Radar (InSAR) imagery. In this first class, we will learn how to create a raster to detect surface changes. In a following class, we will overlay this raster with infrastructure and points of interest to assess the damage. 
+Estimating the infrastructure that has been damaged during a crisis provides a powerful insight into the scale and impact of the event. It allows us to estimate critical factors like number of people who lost their home or essential facilities like hospitals that are out of service. The Interferometric Synthetic Aperture Radar (InSAR) compares synthetic aperture radars (SAR) images across the time to estimate changes in the earth's surface during the same time period. 
 
+In this illustrative class we are showcasing the work done by the [World Bank's Data Lab](https://wbdatalab.org/) team to estimate the damage undertaken to buildings and points of interest during the Gaza-Israel conflict. In this first class, we will learn how to create a raster to detect surface changes and in a subsequent class, we will overlay this raster with infrastructure and points of interest to assess and quantify the damage.
 
 ### Learning Objectives
 #### Overall goals 
 The primary objective of this notebook is to show students how open-source datasets can be employed to create a georeferenced layer indicating areas that experienced a surface change. 
 #### Specific objectives  
-At the end of this notebook the student should:
+At the end of this notebook, you should have gained an understanding and appreciation of the following:
 
 1. **Understand Sentinel-1 data**:
 
-2. **Understand the methodology for creating a layer of damaged areas:**
+2. **Methodology for creating a layer of damaged areas**:
    - Learn the theoretical frame behind the image similarity method.
    - Understand the methodology limitations
 

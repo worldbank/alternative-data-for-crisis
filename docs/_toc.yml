@@ -63,7 +63,7 @@ parts:
   - caption: Pulling it all Together
     numbered: True
     chapters:
-      - file: notebooks/pulling-it-together/indicators/pulling-it-together-indicators.md
+      - file: notebooks/pulling-it-together/pulling-it-together-indicators.md
         sections:
           - file: notebooks/pulling-it-together/indicators-housing-and-community.ipynb
           - file: notebooks/pulling-it-together/industry-and-commerce.ipynb

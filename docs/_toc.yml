@@ -60,15 +60,15 @@ parts:
       - file: notebooks/disruptions-business-trade/visits.ipynb
       - file: notebooks/disruptions-business-trade/cross-border-activity.md
       - file: notebooks/disruptions-business-trade/google-trends.ipynb
-  - caption: Pulling it all Together
-    numbered: True
-    chapters:
-      - file: notebooks/pulling-it-together/pulling-it-together-indicators.md
-        sections:
-          - file: notebooks/pulling-it-together/indicators-housing-and-community.ipynb
-          - file: notebooks/pulling-it-together/industry-and-commerce.ipynb
-          - file: notebooks/pulling-it-together/practice-indicators.ipynb
-      - file: notebooks/pulling-it-together/best-practices.md
+#  - caption: Pulling it all Together
+#    numbered: True
+#    chapters:
+#      - file: notebooks/pulling-it-together/pulling-it-together-indicators.md
+#        sections:
+#          - file: notebooks/pulling-it-together/indicators-housing-and-community.ipynb
+#          - file: notebooks/pulling-it-together/industry-and-commerce.ipynb
+#          - file: notebooks/pulling-it-together/practice-indicators.ipynb
+#      - file: notebooks/pulling-it-together/best-practices.md
   - caption: Final Project
     numbered: True
     chapters:

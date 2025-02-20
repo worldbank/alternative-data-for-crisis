@@ -10,7 +10,6 @@ parts:
 #      - file: notebooks/review-notebooks/review-geopandas.ipynb
   - caption: Establishing the Analysis Zone
     numbered: True
-    toc: false
     chapters:
       - file: notebooks/establishing-the-analysis-zone/establishing-the-analysis-zone.ipynb
   - caption: Mapping and Monitoring the Extent of the Crisis
@@ -60,15 +59,15 @@ parts:
       - file: notebooks/disruptions-business-trade/visits.ipynb
       - file: notebooks/disruptions-business-trade/cross-border-activity.md
       - file: notebooks/disruptions-business-trade/google-trends.ipynb
-#  - caption: Pulling it all Together
-#    numbered: True
-#    chapters:
-#      - file: notebooks/pulling-it-together/pulling-it-together-indicators.md
-#        sections:
-#          - file: notebooks/pulling-it-together/indicators-housing-and-community.ipynb
-#          - file: notebooks/pulling-it-together/industry-and-commerce.ipynb
-#          - file: notebooks/pulling-it-together/practice-indicators.ipynb
-#      - file: notebooks/pulling-it-together/best-practices.md
+  - caption: Pulling it all Together
+    numbered: True
+    chapters:
+      - file: notebooks/pulling-it-together/pulling-it-together-indicators.md
+        sections:
+          - file: notebooks/pulling-it-together/indicators-housing-and-community.ipynb
+          - file: notebooks/pulling-it-together/industry-and-commerce.ipynb
+          - file: notebooks/pulling-it-together/practice-indicators.ipynb
+      - file: notebooks/pulling-it-together/best-practices.md
   - caption: Final Project
     numbered: True
     chapters:

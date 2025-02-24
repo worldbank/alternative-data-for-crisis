@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - develop #for testing purposes
 
 jobs:
   build-book:
@@ -23,7 +24,7 @@ jobs:
           jupyter-book build . --config docs/_config.yml --toc docs/_toc.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        if: github.ref == 'refs/heads/main' && job.status == 'success'
+        if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop') && job.status == 'success'
         with:
           path: "_build/html"
 

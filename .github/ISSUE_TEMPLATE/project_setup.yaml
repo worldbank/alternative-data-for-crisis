@@ -1,0 +1,43 @@
+name: Assignment Overview
+description: Starting point for new Data Lab projects
+title: "OVERVIEW | [Country or REGION] - [Project]"
+labels: data lab assignment
+body:
+- type: markdown
+  attributes:
+    value: |
+      ### Project Overview and Core Information
+- type: input
+  id: contact
+  attributes:
+    label: Client Contact Name(s)
+    placeholder: ex. Sally Smith, Han Lee
+  validations:
+    required: false
+- type: input
+  id: charge-code
+  attributes:
+    label: Project Charge Code
+    placeholder: ex. AA-P123456-GPLG-TF01234 or IO 123456
+  validations:
+    required: false
+- type: input
+  id: manager
+  attributes:
+    label: Project Manager
+    placeholder: Person responsible for client relationship and final deliverables
+  validations:
+    required: false
+- type: input
+  id: share-point
+  attributes:
+    label: Project Sharepoint URL
+- type: input
+  id: web-book
+  attributes:
+    label: Project Web Book URL
+- type: textarea
+  id: assignment-summary
+  attributes:
+    label: Project Assignment
+    placeholder: Please provide a summary of the project and assignment and, when available, upload work plan shared with client. 

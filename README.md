@@ -1,8 +1,70 @@
 # Using Alternative Data to Assess Immediate Economic Impacts of Crises -- Conflict and Natural Disasters 
 
-This repository will be used to prepare the material for the course. 
+This cutting-edge course is designed to equip students with the skills necessary to utilize alternative data sources for 
+the immediate assessment of economic impacts caused by crises, such as conflicts and natural disasters. 
+Participants will engage in a learning journey that begins with a refresher on essential coding skills and progresses 
+through the exploration of both open-source and proprietary data. 
 
-## Course Material
-The course outline can be found [here](https://worldbankgroup.sharepoint.com.mcas.ms/:w:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/_layouts/15/Doc.aspx?sourcedoc=%7B4C6C0AB2-E17B-474B-B71E-5D186F0D483D%7D&file=DEC%20Global%20Institute%20Course.docx&action=default&mobileredirect=true&wdsle=0).
+Through practical, hands-on examples, students will learn to extract and interpret key economic trends in the wake of 
+disaster scenarios. They will delve into innovative methodologies, using nighttime lights for power outage analysis, 
+movement data to track migration patterns and activity, Synthetic Aperture Radar (SAR) for damage assessments, 
+and social media data for insights into internet connectivity. 
 
-There is a [sharepoint](https://worldbankgroup.sharepoint.com/:f:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Projects/Data%20Lab/Alternative%20Data%20for%20Crisis?csf=1&web=1&e=eliPQ5) where all the information related to the course, including the datasets can be found. 
+## Learning Objectives 
+
+1. Refresh skills in Python, QGIS, Jupyter Notebooks, and GitHub for data analysis and code collaboration.  
+
+2. Understand range of open-source and proprietary alternative data sources and how to access them.   
+
+3. Identify key economic indicators for crisis impact assessments.  
+
+4. Execute hands-on analysis of alternative data to measure these indicators.  
+
+5. Synthesize course concepts to analyze the economic impact of a recent crisis on using alternative data.  
+
+6. Present results as a collaborative webbook for dissemination.   
+
+Participants will develop the competencies to navigate and analyze diverse data sets, equipping them with practical skills
+for real-world economic impact analysis in the context of crises.  
+
+## Course overview
+
+```{tableofcontents}
+```
+
+## Instructors
+
+<style>
+.instructor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.instructor-card {
+    width: 200px;
+    text-align: center;
+}
+.instructor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+</style>
+
+<div class="instructor-container">
+    <div class="instructor-card">
+        <img src="path/to/image1.jpg" alt="Instructor 1">
+        <h3>Holly Krambeck</h3>
+        <p>Program Manager with the World Banks' Development Data Group</p>
+    </div>
+    <div class="instructor-card">
+        <img src="path/to/image2.jpg" alt="Instructor 2">
+        <h3>Dunstan Matekenya</h3>
+        <p>Data Scientist with the World Bank's Data Lab</p>
+    </div>
+    <div class="instructor-card">
+        <img src="path/to/image3.jpg" alt="Instructor 3">
+        <h3>Maria Sol Tadeo</h3>
+        <p>Data Scientist at the World Bank Group</p>
+    </div>
+</div>

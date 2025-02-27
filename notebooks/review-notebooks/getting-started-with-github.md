@@ -5,16 +5,14 @@ GitHub is a web-based platform used for version control using [Git](https://git-
 
 
 
-[GitHub](https://github.com/) welcomes the largest open source communities in the world, with projects like [pandas](https://github.com/pandas-dev/pandas/), [scikit-learn](https://scikit-learn.org/stable/), [PyTorch](https://pytorch.org/), [TensorFlow](https://www.tensorflow.org/) and many more. With over 40 millions, GitHub gained such an important position thanks to its amazing collaboration tools and technologies build on top of [git](https://git-scm.com/).
+[GitHub](https://github.com/) welcomes the largest open source communities in the world, with projects like [pandas](https://github.com/pandas-dev/pandas/), [scikit-learn](https://scikit-learn.org/stable/), [PyTorch](https://pytorch.org/), [TensorFlow](https://www.tensorflow.org/) and many more. With over 40 millions, GitHub gained such an important position thanks to its amazing collaboration tools and technologies build on top of [Git](https://git-scm.com/).
 
-
-GitHub is a web-based platform used for version control using Git. It allows multiple people to collaborate on projects, track changes, and manage code. This guide will help you get started with GitHub, covering the basics of creating repositories, committing changes, and collaborating with others.
 
 
 ## GitHub Quickstart Guide
 
 ### Introduction
-This guide will help you get started with GitHub, covering the basics of setting up a GitHub Account and cloning the course repository.
+This guide will help you get started with GitHub, covering the basics of setting up a GitHub account and cloning the course repository.
 
 #### Prerequisites
 
@@ -33,10 +31,11 @@ git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"
 ```
 
-###s Cloning a Repository
-Our course is stored on a GitHub repository on `remote`. In order to have a copy of it on your `local` machine, you need to clone it from the `remote` to `local`
+#### Cloning a Repository
 
-1. Open the terminal/command line and navigate to the path where you want to store the course material
+Our course is stored on a GitHub repository on `remote`. In order to have a copy of it on your `local` machine, you need to clone it from the `remote` to `local`.
+
+1. Open the terminal/command line and navigate to the path where you want to store the course material.
 2. Go to `https://github.com/worldbank/alternative-data-for-crisis`, press `code` button and copy the link for cloning 
 that fits your needs. 
 ```{figure} ../images/clone_repo.png
@@ -44,9 +43,9 @@ that fits your needs.
 width: 700
 name: clone_repo
 ---
-How to obtain the link for clonning a repository
+How to obtain the link for cloning a repository
 ``` 
-3. Go back to the command line, execute the below code and follow the instructions
+3. Go back to the command line, execute the below code and follow the instructions.
 ```commandline
 git clone "repository-link"
 ```

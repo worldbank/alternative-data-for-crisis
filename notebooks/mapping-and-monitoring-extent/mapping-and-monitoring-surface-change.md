@@ -64,7 +64,7 @@ Resulting anomaly detection raster layer for the 2023-10-17.
 ```
 
 ### Infrastructural damage assessment using the change maps and the vector layers
-This step will be explained when assessing the [Physical Impact over the Infrastructure](https://reimagined-disco-g6q6ny1.pages.github.io/notebooks/physical-impact/infrastructure.html).
+This step will be explained when assessing the [Infrastructural damage assessment](damage-assessment).
 
 ## Limitations
 

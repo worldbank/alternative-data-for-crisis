@@ -29,9 +29,9 @@ docs = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/datapartnership/alternative-data-for-crisis"
-"Bug Reports" = "https://github.com/datapartnership/alternative-data-for-crisis/issues"
-"Source" = "https://github.com/datapartnership/alternative-data-for-crisis"
+"Homepage" = "https://github.com/worldbank/alternative-data-for-crisis"
+"Bug Reports" = "https://github.com/worldbank/alternative-data-for-crisis/issues"
+"Source" = "https://github.com/worldbank/alternative-data-for-crisis"
 
 [tool.codespell]
 skip = 'docs/_build,docs/references.bib,*.png,*.gz,*.whl'

@@ -29,42 +29,35 @@ for real-world economic impact analysis in the context of crises. 
 
 ## Course overview
 
-```{tableofcontents}
-```
+```{figure} ./_static/images/roadmap.png
+---
+width: 700
+name: roadmap
+---
+Learning roadmap for the course.
+``` 
 
 ## Instructors
 
-<style>
-.instructor-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.instructor-card {
-    width: 200px;
-    text-align: center;
-}
-.instructor-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-</style>
+<div style="display: flex; justify-content: center; gap: 40px;">
 
-<div class="instructor-container">
-    <div class="instructor-card">
-        <img src="path/to/image1.jpg" alt="Instructor 1">
-        <h3>Holly Krambeck</h3>
-        <p>Program Manager with the World Banks' Development Data Group</p>
-    </div>
-    <div class="instructor-card">
-        <img src="path/to/image2.jpg" alt="Instructor 2">
-        <h3>Dunstan Matekenya</h3>
-        <p>Data Scientist with the World Bank's Data Lab</p>
-    </div>
-    <div class="instructor-card">
-        <img src="path/to/image3.jpg" alt="Instructor 3">
-        <h3>Maria Sol Tadeo</h3>
-        <p>Data Scientist at the World Bank Group</p>
-    </div>
+  <div style="width: 200px; text-align: center;">
+    <img src="./_static/images/solpic.jpeg" alt="Instructor 1" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
+    <div style="margin-top: 10px; font-weight: bold;">Holly Krambeck</div>
+    <div>Program Manager with the World Banks' Development Data Group</div>
+  </div>
+
+  <div style="width: 200px; text-align: center;">
+    <img src="./_static/images/solpic.jpeg" alt="Instructor 2" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
+    <div style="margin-top: 10px; font-weight: bold;">Dunstan Matekenya</div>
+    <div>Data Scientist with the World Bank's Data Lab</div>
+  </div>
+
+  <div style="width: 200px; text-align: center;">
+    <img src="./_static/images/solpic.jpeg" alt="Instructor 3" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
+    <div style="margin-top: 10px; font-weight: bold;">Maria Sol Tadeo</div>
+    <div>Data Scientist at the World Bank Group</div>
+  </div>
+
 </div>
+

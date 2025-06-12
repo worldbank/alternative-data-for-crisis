@@ -31,7 +31,7 @@ for real-world economic impact analysis in the context of crises. 
 
 ```{figure} ./_static/images/roadmap.png
 ---
-width: 700
+width: 600
 name: roadmap
 ---
 Learning roadmap for the course.

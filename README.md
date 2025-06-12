@@ -31,7 +31,7 @@ for real-world economic impact analysis in the context of crises. 
 
 ```{figure} ./_static/images/roadmap.png
 ---
-width: 700
+width: 600
 name: roadmap
 ---
 Learning roadmap for the course.
@@ -42,13 +42,13 @@ Learning roadmap for the course.
 <div style="display: flex; justify-content: center; gap: 40px;">
 
   <div style="width: 200px; text-align: center;">
-    <img src="./_static/images/holly_bigger.png" alt="Instructor 1" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
+    <img src="./_static/images/holly_trimmed.png" alt="Instructor 1" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
     <div style="margin-top: 10px; font-weight: bold;">Holly Krambeck</div>
     <div>Program Manager with the World Banks' Development Data Group</div>
   </div>
 
   <div style="width: 200px; text-align: center;">
-    <img src="./_static/images/dunstan.png" alt="Instructor 2" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">solpic
+    <img src="./_static/images/dunstan.png" alt="Instructor 2" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
     <div style="margin-top: 10px; font-weight: bold;">Dunstan Matekenya</div>
     <div>Data Scientist with the World Bank's Data Lab</div>
   </div>

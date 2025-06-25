@@ -99,3 +99,11 @@ data/
 
 # others folder
 cache/
+
+# file extension
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.h5

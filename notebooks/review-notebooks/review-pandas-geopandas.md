@@ -30,7 +30,8 @@ The following resources might be of your interest to grow your skills in Geospat
 > - Epicenter's latitude and longitude: -31.553, -68.529
 > - [Population's Raster from Worldpop](https://worldbankgroup.sharepoint.com/:i:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Projects/Data%20Lab/Alternative%20Data%20for%20Crisis/datasets_review_python/arg_ppp_2020_constrained.tif?csf=1&web=1&e=sZdHEi)
 > - [Healthcare Facilities from HDX](https://worldbankgroup.sharepoint.com/:u:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Projects/Data%20Lab/Alternative%20Data%20for%20Crisis/datasets_review_python/health_care_facilities.zip?csf=1&web=1&e=kfv2TQ)
-> - [H3 level 6 hexagons]()
+> - [H3 level 6 hexagons](https://worldbankgroup.sharepoint.com/:u:/r/teams/DevelopmentDataPartnershipCommunity-WBGroup/Shared%20Documents/Projects/Data%20Lab/Alternative%20Data%20for%20Crisis/datasets_review_python/san_juan_hexagons.geojson?csf=1&web=1&e=Rx2G1K)
+
 You were requested to provide:
 - The number of population on a buffer of 15 Km from the epicenter as an estimation of affected population.
 - The number of healthcare facilities on a buffer of 15 Km from the epicenter as an estimation of affected healthcare 

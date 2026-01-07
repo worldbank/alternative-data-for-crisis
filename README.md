@@ -27,6 +27,9 @@ and social media data for insights into internet connectivity. 
 Participants will develop the competencies to navigate and analyze diverse data sets, equipping them with practical skills
 for real-world economic impact analysis in the context of crises.  
 
+## Participants' Qualifications
+Participants should have some prior Python coding experience, previous knowledge of Pandas and Geopandas is desired but not mandatory. All the course will be held in Python so you should feel comfortable with reading and writing this language. If you have doubts on whether you are prepared to take the course, try solving [this excercise](case-study) (GPT model allowed) and you will get a sense of how difficult will it be. Sample solution is [here](case-study-solution). 
+
 ## Course overview
 
 ```{figure} ./_static/images/roadmap.png

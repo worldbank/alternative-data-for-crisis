@@ -24,6 +24,7 @@ The following resources might be of your interest to grow your skills in Geospat
 - [Python for Geographic Data Analysis](https://pythongis.org/index.html)
 - [Rasterio Quick Start](https://rasterio.readthedocs.io/en/stable/quickstart.html)
 
+(case-study)=
 ## Case Study (Fictional)
 >Last Monday, there was an earthquake in the city of San Juan, San Juan, Argentina, with a magnitude of 7.5 on the 
 > moment magnitude scale. We need you to create a report answering the below questionnaire with the below data:

@@ -28,7 +28,7 @@ Participants will develop the competencies to navigate and analyze diverse data 
 for real-world economic impact analysis in the context of crises.  
 
 ## Participants' Qualifications
-Participants should have some prior Python coding experience, previous knowledge of Pandas and Geopandas is desired but not mandatory. All the course will be held in Python so you should feel comfortable with reading and writing this language. If you have doubts on whether you are prepared to take the course, try solving [this excercise](case-study) (GPT model allowed) and you will get a sense of how difficult will it be. Sample solution is [here](case-study-solution). 
+Participants should have some prior Python coding experience, previous knowledge of Pandas and Geopandas is desired but not mandatory. All the course will be held in Python so you should feel comfortable with reading and writing this language. If you have doubts on whether you are prepared to take the course, try solving [this exercise](case-study) (GPT model allowed) and you will get a sense of how difficult will it be. Sample solution is [here](case-study-solution). 
 
 ## Course overview
 
@@ -46,19 +46,13 @@ Learning roadmap for the course.
 
   <div style="width: 200px; text-align: center;">
     <img src="./_static/images/holly_trimmed.png" alt="Instructor 1" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
-    <div style="margin-top: 10px; font-weight: bold;">Holly Krambeck</div>
+    <div style="margin-top: 10px; font-weight: bold;">Holly Krambeck (hkrambeck@worldbank.org)</div>
     <div>Program Manager with the World Banks' Development Data Group</div>
   </div>
 
   <div style="width: 200px; text-align: center;">
-    <img src="./_static/images/dunstan.png" alt="Instructor 2" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
-    <div style="margin-top: 10px; font-weight: bold;">Dunstan Matekenya</div>
-    <div>Data Scientist with the World Bank's Data Lab</div>
-  </div>
-
-  <div style="width: 200px; text-align: center;">
     <img src="./_static/images/solpic.jpeg" alt="Instructor 3" style="width:150px; height:150px; border-radius:50%; object-fit:cover;">
-    <div style="margin-top: 10px; font-weight: bold;">Maria Sol Tadeo</div>
+    <div style="margin-top: 10px; font-weight: bold;">Maria Sol Tadeo (mtadeo@worldbank.org)</div>
     <div>Data Scientist at the World Bank Group</div>
   </div>
 

@@ -6,8 +6,9 @@ parts:
     numbered: True
     chapters:
       - file: notebooks/review-notebooks/getting-started-with-github.md
-#      - file: notebooks/review-notebooks/review-pandas.ipynb
-#      - file: notebooks/review-notebooks/review-geopandas.ipynb
+      - file: notebooks/review-notebooks/review-pandas-geopandas.md
+        sections:
+          - file: notebooks/review-notebooks/case-study-solution.ipynb
   - caption: Establishing the Analysis Zone
     numbered: True
     chapters:

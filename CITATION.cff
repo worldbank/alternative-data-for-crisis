@@ -6,9 +6,19 @@ authors:
     family-names: Tadeo
     given-names: Maria Sol
   - affiliation: World Bank
+    family-names: Krambeck
+    given-names: Holly
+  - affiliation: World Bank
+    family-names: Sarva
+    given-names: Sahiti 
+  - affiliation: World Bank
+    family-names: Rodriguez
+    given-names: Abril Nazarena
+  - affiliation: World Bank
     family-names: Stefanini Vicente
     given-names: Gabriel
     orcid: https://orcid.org/0000-0001-6530-3780
 keywords:
   - Open Science
-repository-code: https://github.com/worldbank/alternative-data-for-crisis/tree/main
+repository-code: https://github.com/worldbank/alternative-data-for-crisis
+url: https://worldbank.github.io/alternative-data-for-crisis/

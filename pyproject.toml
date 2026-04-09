@@ -24,7 +24,7 @@ dynamic = ["version"]
 requires-python = ">=3.7"
 [project.optional-dependencies]
 docs = [
-	"docutils==0.17.1",    # https://jupyterbook.org/en/stable/content/citations.html?highlight=docutils#citations-and-bibliographies
+	"docutils==0.22.4",    # https://jupyterbook.org/en/stable/content/citations.html?highlight=docutils#citations-and-bibliographies
 	"jupyter-book >=1,<2",
 ]
 
